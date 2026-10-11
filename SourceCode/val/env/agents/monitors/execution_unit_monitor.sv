@@ -2,6 +2,7 @@ class exec_tx_rx_monitor extends uvm_monitor;
     `uvm_component_utils(exec_tx_rx_monitor)
 
     exec_vif_t vif;
+    uvm_analysis_port #(execution_simple_item) mod_analysis_port;
 
     function new(string name, uvm_component parent);
         super.new(name, parent);
@@ -16,7 +17,7 @@ class exec_tx_rx_monitor extends uvm_monitor;
 
     function void build_phase(uvm_phase phase);
         super.build_phase(phase);
-
+        mod_analysis_port = new("mod_analysis_port",this);
 
     endfunction : build_phase
 
@@ -37,11 +38,10 @@ class exec_tx_rx_monitor extends uvm_monitor;
                      item.Zero      = vif.Zero;
                      item.AltB      = vif.AltB;
                      item.AltBu     = vif.AltBu;
-                end
-
+                     item.AddNSub   = vif.AddNSub;
+                     mod_analysis_port.write(item);
+              end
         end
-
-
 
     endtask
 

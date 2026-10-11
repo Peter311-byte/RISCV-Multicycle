@@ -7,6 +7,7 @@ package exec_env_pkg;
   `include "agents/sequencers/execution_unit_sequencer.sv"
   `include "agents/monitors/execution_unit_monitor.sv"
   `include "agents/execution_unit_agent.sv"
+  `include "scoreboard/execution_unit_scoreboard.sv"
   `include "execution_unit_env.sv"
   // future files go below, one line each
 endpackage
