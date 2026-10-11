@@ -1,0 +1,10 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/rtl/BLAN.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'BLAN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/rtl/BrentKungAdder.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'BrentKungAdder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/rtl/LogicUnit.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'LogicUnit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/rtl/ShiftUnit.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'ShiftUnit'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/rtl/ExecUnit.vhd" into library work
+INFO: [VRFC 10-3107] analyzing entity 'ExecUnit'

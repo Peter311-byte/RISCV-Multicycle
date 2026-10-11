@@ -1,0 +1,33 @@
+Vivado Simulator v2026.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2026.1/Vivado/bin/unwrapped/win64.o/xelab.exe -L uvm -timescale 1ns/1ps -debug typical work.tb_top -s tb_snap 
+Multi-threading is on. Using 10 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling package work.exec_pkg
+Compiling package work.exec_env_pkg
+Compiling package work.exec_test_pkg
+Compiling module work.exec_if_default
+Compiling architecture structural of entity work.BLAN [\BLAN(n=2)\]
+Compiling architecture structural of entity work.BLAN [\BLAN(n=4)\]
+Compiling architecture structural of entity work.BLAN [\BLAN(n=8)\]
+Compiling architecture structural of entity work.BLAN [\BLAN(n=16)\]
+Compiling architecture structural of entity work.BLAN [\BLAN(n=32)\]
+Compiling architecture structural of entity work.BLAN [blan_default]
+Compiling architecture structural of entity work.BrentKungAdder [brentkungadder_default]
+Compiling architecture rtl of entity work.ShiftUnit [shiftunit_default]
+Compiling architecture rtl of entity work.LogicUnit [logicunit_default]
+Compiling architecture structural of entity work.ExecUnit [execunit_default]
+Compiling module work.tb_top
+Built simulation snapshot tb_snap

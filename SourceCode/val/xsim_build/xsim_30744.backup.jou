@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# xsim v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Sat Oct 10 20:02:24 2026
+# Process ID         : 30744
+# Current directory  : C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/val/xsim_build
+# Command line       : xsim.exe -source {xsim.dir/tb_snap/xsim_script.tcl}
+# Log file           : C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/val/xsim_build/xsim.log
+# Journal file       : C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/val/xsim_build\xsim.jou
+# Running On         : Prasanna_PC
+# Platform           : Windows 11
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-12400F
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 17016 MB
+# Swap memory        : 18253 MB
+# Total Virtual      : 35270 MB
+# Available Virtual  : 11165 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/tb_snap/xsim_script.tcl
+source ..gui.tcl
+log_wave -r /*
+add_wave /tb_top/vif/*
+run all
+save_wave_config {C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/val/xsim_build/tb_snap.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/val/xsim_build/tb_snap.wcfg
+set_property xsim.view C:/Users/peter/OneDrive/Desktop/RISCV-Multicycle/SourceCode/val/xsim_build/tb_snap.wcfg [get_filesets sim_1]
+close_sim
